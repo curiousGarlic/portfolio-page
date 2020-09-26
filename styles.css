@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 
-body {
+/* body {
 	font-family: 'Federo', sans-serif;
 	overflow-x: hidden;
-}
+} */
 
 
 
 
 /************** Fonts **************/
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway|Ubuntu|Dosis|Poiret+One');
 
 
@@ -22,16 +22,16 @@ body {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Federo', sans-serif;
     background-color: #E5E5E5;
 }
 h1,h2,h3,h4,h5 {
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Federo', sans-serif;
 }
 p {
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Federo', sans-serif;
     color: #333;
 }
 
@@ -52,11 +52,14 @@ p {
 
 
 /************** Colours **************/
-.coffee {
-    color: #8d6c55;
+.reddish {
+    color: rgb(255, 128, 128);
 }
-.blue {
-    color: #4678b2;
+.greenish {
+	color: rgb(128, 255, 128)
+}
+.bluish {
+    color: rgb(128, 128, 255);
 }
 .white {
     color: #fff;
@@ -191,7 +194,7 @@ p {
     position: relative;
     top: 28vh;
     color: #333;
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Federo', sans-serif;
     transition: 1s;
     font-weight: bolder;
     font-size: 2em !important;
@@ -200,7 +203,7 @@ p {
     position: relative;
     top: 35vh;
     color: #eee;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Federo', sans-serif;
     font-style: italic;
     font-size: 1.2em;
     margin: 0;
@@ -572,7 +575,7 @@ textarea {
     border: 5px solid #3F6292;
     border-radius: 5px;
     transition: 0.25s;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Federo', sans-serif;
     margin-top: 35px;
     cursor: pointer;
 }
