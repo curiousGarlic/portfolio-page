@@ -27,7 +27,8 @@ body {
 }
 h1,h2,h3,h4,h5 {
     margin: 0;
-    font-family: 'Federo', sans-serif;
+		font-family: 'Federo', sans-serif;
+		color: rgb(192, 192, 192);
 }
 p {
     margin: 0;
@@ -186,9 +187,11 @@ p {
     height: 100vh;
     width: 100%;
     text-align: center;
-    background:-webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/background_abstract_colors.jpg') top;
-    background:-moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/background_abstract_colors.jpg') top;
-    background-size: cover;
+    background:-webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/background_abstract_colors.jpg') center center;
+    background:-moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/background_abstract_colors.jpg') center center;
+		background-size: cover;
+		background-attachment: fixed;
+
 }
 #welcome-section h1 {
     position: relative;
@@ -502,7 +505,7 @@ p {
     cursor: pointer;
 }
 .cert-image:hover {
-    transform: scale(2.5) translate(5px, 15px);
+    transform: scale(1.05) translate(5px, 15px);
 }
 .cert-issued {
     font-style: italic;
@@ -538,8 +541,8 @@ p {
 }
 #hr-contact {
     width: 50px;
-    border: 2px solid #1b1b1b;
-    border-color: #333; 
+    border: 2px solid #808080;
+    border-color: #808080; 
     margin-bottom: 25px;
 }
 form {
@@ -661,7 +664,7 @@ footer a:hover {
         width: 250px;
     }
     .cert-image:hover {
-        transform: scale(5) translate(55px, 25px);
+        transform: scale(1.05) translate(55px, 25px);
     }
     #projects h2, #projects-hr {
         margin-left: 0;
