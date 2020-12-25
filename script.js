@@ -115,46 +115,46 @@ const certs = {
             issued: 'Issued June 14, 2018',
             link: '#'
         },
-        {
-            educator: 'Udacity',
-            logo: 'udacity.png',
-            name: 'Mobile Web Specialist Nanodegree',
-            image: 'Mobile_Web_Specialist.png',
-            issued: 'Issued June 11, 2018',
-            link: '#'
-        },
-        {
-            educator: 'FreeCodeCamp',
-            logo: 'freecodecamp.png',
-            name: 'Algorithms and Data Structures',
-            image: 'Algorithms_and_Data_Structures.png',
-            issued: 'Issued May 31, 2018',
-            link: '#'
-        },
-        {
-            educator: 'FreeCodeCamp',
-            logo: 'freecodecamp.png',
-            name: 'Legacy Data Visualization Program',
-            image: 'Legacy_Data_Visualization.png',
-            issued: 'Issued March 11, 2018',
-            link: '#'
-        },
-        {
-            educator: 'FreeCodeCamp',
-            logo: 'freecodecamp.png',
-            name: 'Legacy Front End Development Program',
-            image: 'Legacy_Front_End_Development.png',
-            issued: 'Issued July 13, 2017',
-            link: '#'
-        },
-        {
-            educator: 'Adobe',
-            logo: 'adobe.png',
-            name: 'Adobe Certified Associate in Visual Communication Using Adobe Photoshop',
-            image: 'Photoshop_ACA.png',
-            issued: 'Issued June 16, 2016',
-            link: '#'
-        }
+        // {
+        //     educator: 'Udacity',
+        //     logo: 'udacity.png',
+        //     name: 'Mobile Web Specialist Nanodegree',
+        //     image: 'Mobile_Web_Specialist.png',
+        //     issued: 'Issued June 11, 2018',
+        //     link: '#'
+        // },
+        // {
+        //     educator: 'FreeCodeCamp',
+        //     logo: 'freecodecamp.png',
+        //     name: 'Algorithms and Data Structures',
+        //     image: 'Algorithms_and_Data_Structures.png',
+        //     issued: 'Issued May 31, 2018',
+        //     link: '#'
+        // },
+        // {
+        //     educator: 'FreeCodeCamp',
+        //     logo: 'freecodecamp.png',
+        //     name: 'Legacy Data Visualization Program',
+        //     image: 'Legacy_Data_Visualization.png',
+        //     issued: 'Issued March 11, 2018',
+        //     link: '#'
+        // },
+        // {
+        //     educator: 'FreeCodeCamp',
+        //     logo: 'freecodecamp.png',
+        //     name: 'Legacy Front End Development Program',
+        //     image: 'Legacy_Front_End_Development.png',
+        //     issued: 'Issued July 13, 2017',
+        //     link: '#'
+        // },
+        // {
+        //     educator: 'Adobe',
+        //     logo: 'adobe.png',
+        //     name: 'Adobe Certified Associate in Visual Communication Using Adobe Photoshop',
+        //     image: 'Photoshop_ACA.png',
+        //     issued: 'Issued June 16, 2016',
+        //     link: '#'
+        // }
     ]
 };
 
@@ -376,36 +376,36 @@ const projects = {
             link: '#',
             'technologies': ['Node', 'Express']
         },
-        {
-            name: 'Build a Request Header Parser Microservice',
-            image: '#',
-            link: '#',
-            'technologies': ['Node', 'Express']
-        },
-        {
-            name: 'Build a URL Shortener Microservice',
-            image: '#',
-            link: '#',
-            'technologies': ['Node', 'Express', 'MongoDB', 'url-valid']
-        },
-        {
-            name: 'Image Search Abstraction Layer',
-            image: '#',
-            link: '#',
-            'technologies': ['Node', 'Express', 'MongoDB', 'Web API']
-        },
-        {
-            name: 'File Metadata Microservice',
-            image: '#',
-            link: '#',
-            'technologies': ['Node', 'Express', 'MongoDB', 'multer']
-        },
-        {
-            name: 'Build an Exercise Tracker',
-            image: '#',
-            link: '#',
-            'technologies': ['Node', 'Express', 'MongoDB', 'Mongoose']
-        }
+        // {
+        //     name: 'Build a Request Header Parser Microservice',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['Node', 'Express']
+        // },
+        // {
+        //     name: 'Build a URL Shortener Microservice',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['Node', 'Express', 'MongoDB', 'url-valid']
+        // },
+        // {
+        //     name: 'Image Search Abstraction Layer',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['Node', 'Express', 'MongoDB', 'Web API']
+        // },
+        // {
+        //     name: 'File Metadata Microservice',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['Node', 'Express', 'MongoDB', 'multer']
+        // },
+        // {
+        //     name: 'Build an Exercise Tracker',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['Node', 'Express', 'MongoDB', 'Mongoose']
+        // }
     ],
     InformationSecurityAndQualityAssurance: [],
     ReactJS: [
@@ -415,30 +415,30 @@ const projects = {
             link: '#',
             'technologies': ['React', 'Node', 'Markdown']
         },
-        {
-            name: 'Build a Camper Leaderboard',
-            image: '#',
-            link: '#',
-            'technologies': ['React', 'Node', 'AJAX']
-        },
-        {
-            name: 'Build Conway\'s Game of Life',
-            image: '#',
-            link: '#',
-            'technologies': ['React', 'Node']
-        },
-        {
-            name: 'Build a Recipe Box',
-            image: '#',
-            link: '#',
-            'technologies': ['React', 'Node', 'Local Storage']
-        },
-        {
-            name: 'Build a Rougelike Dungeon Crawler Game',
-            image: '#',
-            link: '#',
-            'technologies': ['React', 'Node', 'Phaser']
-        }
+        // {
+        //     name: 'Build a Camper Leaderboard',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['React', 'Node', 'AJAX']
+        // },
+        // {
+        //     name: 'Build Conway\'s Game of Life',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['React', 'Node']
+        // },
+        // {
+        //     name: 'Build a Recipe Box',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['React', 'Node', 'Local Storage']
+        // },
+        // {
+        //     name: 'Build a Rougelike Dungeon Crawler Game',
+        //     image: '#',
+        //     link: '#',
+        //     'technologies': ['React', 'Node', 'Phaser']
+        // }
     ]
 }
 
