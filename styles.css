@@ -489,8 +489,8 @@ p {
 #numberOfCerts {
     font-size: 1.5em;
     padding: 0 15px 0 5px;
-    color: #3F6292;
-    text-decoration: underline;
+    color: rgb(25, 5, 60);
+    /* text-decoration: underline; */
 }
 #certDiv1 {
     display: inline-block;
